@@ -7,6 +7,7 @@
 #dropdown{
     width: 8rem;
     margin-top: 10px;
+    height: 24px;
 }
 .flex-container{
     display: flex;
@@ -44,4 +45,7 @@
 }
 #foot{
     margin-left: 45%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }

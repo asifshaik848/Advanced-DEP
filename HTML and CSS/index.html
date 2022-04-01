@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="head">
@@ -15,7 +18,7 @@
     </div>
     <div class="flex-container">
     <div class="category">
-        <label>SELECT CATEGORY</label>
+        <label style="font-size:smaller; color: #03192b;"><b>SELECT CATEGORY</b></label>
         <br>
         <select id="dropdown"> 
             <option>All</option>
@@ -23,20 +26,20 @@
         </select>
         </div>
     <div class="viewname">
-        <h2>ALL VIEWS</h2>
+        <h2 style="color: #154c79;">ALL VIEWS</h2>
     </div>
     <div class="subscribe">
-        <label>SUBSCRIBE</label><br>
-        <input type="text" placeholder="Email Address" id="subscribe">
-        <button id="sub">Subscribe</button> 
+        <label style="font-size: smaller;"><b>SUBSCRIBE</b></label><br>
+        <input type="text" placeholder="Email Address" id="subscribe" style="height: 24px;">
+        <button id="sub" style="width: 100px; height: 30px;">Subscribe</button> 
     </div>
     </div>
     <hr>
     <div class="cards">
         <div class="one">
-            <img src="logo.png" width="120px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
+            <img src="Python.jpg" width="150px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
             <div class="title">
-            <h2>First Book</h2>
+            <h2 style="color: #154c79;">Python Beginners</h2>
             <p>Posted on 28th Jan 2022 Category : <b>Category one</b></p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolore et 
                 laboriosam veritatis ex fugiat optio doloremque id culpa dolores commodi ad ea, 
@@ -45,9 +48,9 @@
             </div>
         </div>
         <div class="one">
-            <img src="logo.png" width="120px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
+            <img src="java.jpg" width="90px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
             <div class="title">
-            <h2>Second Book</h2>
+            <h2 style="color: #154c79;">Java Programming</h2>
             <p>Posted on 28th Jan 2022 Category : <b>Category one</b></p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolore et 
                 laboriosam veritatis ex fugiat optio doloremque id culpa dolores commodi ad ea, 
@@ -56,9 +59,9 @@
             </div>
         </div>
         <div class="one">
-            <img src="logo.png" width="120px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
+            <img src=".net.jpg" width="120px" height="120px" style="margin-top: 25px; margin-right: 20px;;">
             <div class="title">
-            <h2>Third Book</h2>
+            <h2 style="color: #154c79;">Visual Basic .NET</h2>
             <p>Posted on 28th Jan 2022 Category : <b>Category one</b></p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolore et 
                 laboriosam veritatis ex fugiat optio doloremque id culpa dolores commodi ad ea, 
@@ -69,7 +72,7 @@
     </div>
     <div class="footer">
         <footer>
-            <p id="foot">NewsFeed 2022</p>
+            <p id="foot" style="font-size: 12px;">NewsFeed 2022</p>
         </footer>
     </div>
 </body>
