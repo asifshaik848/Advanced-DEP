@@ -1,0 +1,42 @@
+h1{
+      text-align: center;
+  }
+#search{
+    margin-left: 500px;
+    height: 20px;
+    width: 200px;
+}
+#nextbutton{
+    position: absolute;
+    bottom: 10px;
+    height: 25px;
+    width: 100px;
+    right: 10px;
+}
+#clickbutton{
+    height: 25px;
+    width: 100px;
+}
+body{
+    background-color: grey;
+}
+#videos{
+    display: flexbox;
+}
+#sample{
+    display: flex;
+    flex-direction: row;
+}
+#sample2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+#thumnail{
+    width: 340px;
+    height: 250px;
+    margin: 10px;
+}
+#image{
+    background-color: white;
+}
